@@ -8,7 +8,7 @@ Before firing off any asynchronous tasks, it checks to see if the number of curr
 
 Tasks can be added by calling the 'addTask' method which queues up asynchronous tasks until their turn comes. The order of the execution is maintained.
 
-The process of executing the tasks is initiated by called the 'next' method. The method will call itself recursively until there are no more tasks in the queue.
+The process of executing the tasks is initiated by the 'next' method. The method will call itself recursively until there are no more tasks in the queue.
 
 ## Inspiration
 
